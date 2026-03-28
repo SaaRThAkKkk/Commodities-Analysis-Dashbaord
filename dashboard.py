@@ -41,9 +41,9 @@ st.set_page_config(
 # ─────────────────────────────────────────────
 #  ENDPOINTS & AUTH
 # ─────────────────────────────────────────────
-BASE_OHLC = "https://qh-api.corp.hertshtengroup.com/api/v2/ohlc/"
-BASE_TAS  = "https://qh-api.corp.hertshtengroup.com/api/v2/tas/"
-DEFAULT_BEARER = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbl90eXBlIjoiYWNjZXNzIiwiZXhwIjoyMDg0ODk1NjY5LCJpYXQiOjE3Njk1MzU2NjksImp0aSI6IjgyMTRkM2RlOGIyZTQ3Y2E5NDA2ZTViMjA4YzRhZWVhIiwidXNlcl9pZCI6MzMzfQ.XFhdesEvhfRWvS65ZHQBPsAwqUFHZvVNsW_emPPSXk4"
+BASE_OHLC = "OHLC-DATA_API"
+BASE_TAS  = "TAS_DATA_API"
+DEFAULT_BEARER = "TOKEN_"
 
 MERGE_TOLERANCE_SECONDS = 120
 
